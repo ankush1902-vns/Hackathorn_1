@@ -1,0 +1,333 @@
+.poster 
+{
+    height : 540px ;
+    width : 100vw ;
+    margin-top : 120px ;
+    background-color: #f5f5f5 ;
+}
+.heading 
+{
+    padding-top : 30px ;
+    height : 200px ;
+    width : 45vw ;
+    text-align: center ;
+    font-size : 40px ;
+    color : var(--primary-color) ;
+    text-transform: capitalize ;
+    
+}
+.heading h1 
+{
+    text-align: center ;
+    font-size : 50px ;
+    color : black ;
+    text-transform: capitalize ;
+    
+}
+.picture video
+{
+    position : relative ;
+    left : 45% ;
+    top : -200px ;
+    height : 65% ;
+    width : 53% ;
+    border-radius : 20px ;
+    border : 1px solid var(--primary-color) ;
+}
+.heading p 
+{
+    margin-top : 30px ;
+    margin-bottom: 40px ;
+    -webkit-text-stroke: 0.25px black ;
+    font-size : 30px ;
+}
+.time 
+{
+    margin : 50px 200px ;
+    display : flex ;
+    flex-direction : row ;
+    gap : 100px ;
+}
+/* .donor 
+{
+    height : 100px ;
+    width : 400px ;
+    margin-left: 200px;
+    text-align: center ;
+    text-transform: uppercase ;
+    padding : 10px ;
+    color: var(--secondary-color) ;
+    background-color: var(--primary-color) ;
+} */
+.blood 
+{
+    height : 100px ;
+    width : 400px ;
+    text-align: center ;
+    text-transform: uppercase ;
+    padding : 10px ;
+    color: var(--secondary-color) ;
+    background-color: var(--primary-color) ;
+    border-radius: 20px;
+} 
+
+.donor {
+    height : 100px ;
+    width : 400px ;
+    margin-left: 130px;
+    border-radius: 20px;
+    text-align: center ;
+    text-transform: uppercase ;
+    padding : 10px ;
+    color: var(--secondary-color) ;
+    background-color: var(--primary-color) ;
+}
+.student
+{
+    height : 370px  ;
+    width : 95vw ;
+    margin-top : 40px ;
+        display : flex ;
+        overflow-x : scroll ;
+        scroll-behavior: smooth ;
+        cursor : pointer ;
+        flex-direction: left ;
+        margin-bottom : 60px ;
+        padding-left : 20px ;
+}
+.student div
+{
+    height : 340px ;
+    min-width : 340px ;
+    margin-right : 30px ;
+    border-radius : 20px ;
+}
+.student div img 
+{
+    border-radius : 20px ;
+}
+.student::-webkit-scrollbar
+{
+    width : 1px ;
+    background-color : var(--secondary-color) ;
+    border : solid 0.5px var(--primary-color) ;
+    margin-top: 5px ;
+}
+.student::-webkit-scrollbar-thumb
+{
+    width : 1px ;
+    background-color: red ;
+    -webkit-text-stroke: 1px black ;
+}
+.creator
+{
+    text-align: center ;
+    text-transform : uppercase ;
+    color : var(--primary-color) ;
+    -webkit-text-stroke: 1px black ;
+}
+table
+{
+    position: relative;
+    left : 20% ;
+    font-size: 26px ;
+    border : 2px solid black ;
+    color : var(--primary-color) ;
+    -webkit-text-stroke: 0.4px black ;
+    background-color: #f5f5f5;
+}
+tr 
+{
+    border-bottom: 1px solid black ;
+}
+th 
+{
+    width : 200px ;
+}
+td 
+{
+    width : 300px ;
+    text-align: center ;
+    border-right:  1px solid black ;
+}
+footer 
+{
+    height : 480px ;
+    width : 100% ;
+    display : grid ;
+    grid-template-rows: auto;
+    grid-template-columns: auto ;
+    margin-bottom: 0px ;
+}
+.a1 .a2 .a3
+{
+    grid-row-start: 1 ;
+    grid-row-end : 8 ;
+}
+.a1 
+{ 
+    grid-column-start : 1 ;
+    grid-column-end : 1 ;
+    text-align : center ;
+}
+.a2 
+{
+    grid-column-start : 2 ;
+    grid-column-end : 2 ;
+}
+.a3 
+{
+    grid-column-start : 3 ;
+    grid-column-end : 3 ;
+}
+footer h1 
+{
+    text-align: center ;
+    font-size : 40px ;
+    color : black ;
+    text-transform: capitalize ;
+    display: inline ;
+}
+footer h2 
+{
+    font-size : 30px ;
+    color : black ;
+    text-transform: capitalize ;
+    margin-top: 40px ;
+    margin-bottom: 20px ;
+}
+footer li
+{
+   font-size : 20px ;
+   margin-top : 20px ;
+   text-decoration: none ;
+}
+footer strong 
+{
+    color : var(--primary-color) ;
+}
+.a1 p 
+{
+    font-size : 26px ;
+    color : var(--primary-color) ;
+    -webkit-text-stroke: 0.5px black ;
+    margin-top : 40px ;
+    text-transform: capitalize ;
+}
+.a2 
+{
+    padding-top : 64px ;
+}
+footer 
+{
+    background-color: #f5f5f5 ;
+    margin-top : 100px ;
+    color: black ;
+}
+ul
+{
+    text-decoration: none ;
+}
+.a3
+{
+    padding-top : 64px ;
+}
+.chat 
+{
+    height : 100px ;
+    width : 200px ;
+    position : relative ;
+    top : 5px ;
+}
+.chat img 
+{
+    height : 90% ;
+    width : 100% ;
+    position : relative ;
+    top : 5px ;
+}
+.feedback 
+{
+    height : 100px ;
+    width : 200px ;
+    position : relative ;
+    top : -100px ;
+    left : 240px ;
+}
+.feedback img 
+{
+    height : 90% ;
+    width : 100% ;
+    position : relative ;
+    top : 5px ;
+}
+.laster 
+{
+    background: #f8f8f8;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.register
+{
+    height : 100px ;
+    width : 200px ;
+    position : relative ;
+    top : -200px ;
+    left : 460px ;
+}
+.register img 
+{
+    height : 90% ;
+    width : 100% ;
+    position : relative ;
+}
+.t1 p 
+{
+    color : #f8f4f4 ;
+    margin-top : 10px ;
+}
+.t1 h1 
+{
+    position:  relative ;
+    top : -40px ;
+    color : #1DCD9F ;
+}
+.chatbot 
+{
+    border : 2px solid black ;
+    height : 100px ;
+    width : 100px ;
+    border-radius : 50% ;
+    position : fixed ;
+    top : 84vh ;
+    left : 90vw ;
+    z-index : 1000 ;
+    animation: work 1s ease 0s infinite ; 
+}
+.b1 , .b2
+{
+    transition : all 0.2s ease ;
+}
+.chatbot img 
+{
+    height : 100px ;
+    width : 100px ;
+    border-radius : 50% ;
+}
+@keyframes work 
+{
+    0% {
+        top : 84vh ;
+    }
+     50% {
+      top : 80vh ;
+    }
+    100% {
+         top : 84vh ;
+    }
+}
+.table 
+{
+    border-radius: 20px ;
+}

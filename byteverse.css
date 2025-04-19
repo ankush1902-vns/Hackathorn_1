@@ -1,0 +1,250 @@
+*
+{
+    margin : 0px ;
+    padding : 0px ;
+    overflow-x : none ;
+}
+:root 
+{
+    --primary-color :  #b91c1c ;
+    --secondary-color : white ;
+}
+.greenmode 
+{
+    --primary-color : #007B00 ;
+}
+body 
+{
+    font-family: "Exo 2", sans-serif;
+    overflow-x: hidden ;
+}
+header 
+{
+    width : 100% ;
+     padding : 10px ;
+     display: flex ;
+     flex-direction: row ;
+     color : var(--secondary-color) ;
+     height: 60px ;
+     align-items : center ;
+     opacity : 1000 ;
+     position : fixed ;
+     z-index : 1 ;
+     top : 0px ;
+     margin-top : 0px ;
+     background-color: var(--primary-color);
+     
+}
+header img 
+{
+    height : 60px ;
+    width : 80px ;
+    display : inline ;
+}
+.menu a
+{
+   margin-left : 75px ;
+   font-size : 24px ;
+   text-transform: capitalize ;
+   text-decoration: none ;
+   color : var(--secondary-color) ;
+  font-weight: 400 ;
+}
+header h2 
+{
+    display : inline ;
+    text-transform: uppercase ;
+    text-decoration: italic ;
+
+}
+.menu 
+{
+    margin-left : 100px ;
+}
+header .logo
+{
+    margin-left : 120px ;
+    display : flex ;
+    flex-direction: column ;
+    cursor : pointer ;
+}
+.logo i
+{
+    font-size : 30px ;
+    margin-left : 40px ;
+    color : transparent ;
+    -webkit-text-stroke: 2px  var(--secondary-color) ;
+}
+.i1 a
+{
+    margin-left : 28px ;
+    font-size : 20px ;
+    text-transform: capitalize ;
+}
+header .icon 
+{
+    display : flex ;
+    flex-direction: row ;
+}
+.menu a:hover 
+{
+    font-size : 26px ;
+}
+aside
+{
+    position : fixed ;
+    height : 90vh ;
+    width : 305px ;
+    top : 81px ;
+    left : 80% ;
+    z-index :  1000 ;
+    background-color: #f5f5f5;
+    display : flex ;
+    flex-direction: column ; 
+    visibility: hidden ;
+}
+.side div 
+{
+    padding-left : 20px ;
+    border-bottom : 0.5px solid black ;
+    height : 10vh ;
+}
+.side div p 
+{
+    position : relative ;
+    font-size : 16px ;
+    left : 60px ;
+}
+.side div i 
+{
+    font-size : 30px ;
+    position: relative;
+    top : 12px ;
+    -webkit-text-stroke: 2px  var(--primary-color) ;
+    color : transparent ;
+}
+.side h2 
+{
+    color : var(--primary-color) ;
+    text-align: center ;
+    font-size: 30px ;
+    text-transform: uppercase ;
+    position: relative;
+    top : 12px ;
+}
+.side a
+{
+    position : relative ;
+    left : 26px ;
+    top : 5px ;
+    font-size : 20px ;
+    text-transform: capitalize ;
+}
+.side div button 
+{
+    position : relative ;
+    top : -30px ;
+}
+.stop-scrolling 
+{
+    height : 100vh ;
+    overflow-y : hidden ;
+}
+.t1
+{
+    height : 102% ;
+    width : 100% ;
+    position : absolute ;
+    top : 4px ;
+    left : 0px ;
+    background-color : rgb(0, 0, 0,0.6) ;
+    opacity : 0 ;
+    transition : 0.6s ;
+    color : #ffe100 ;
+    text-align: center ;
+}
+.t1:hover
+{
+    opacity : 1 ;
+    transform : translatey(-5px) ;
+}
+.h1
+{
+    position : relative ;
+    border : solid 2px var(--primary-color) ;
+}
+.img1 
+{
+    height : 60px ;
+    width : 80px ;
+    display : inline ;
+    position : relative ;
+    top : 20px ;
+}
+.b1 
+{
+    position: relative ;
+    top : -20px ;
+    left : -60px ;
+    width : 200px; 
+    height : 60px ;
+    border-radius : 50px ;
+    font-size : 20px ;
+    color :  var(--secondary-color) ;
+    background-color: var(--primary-color) ;
+}
+span img
+{
+    height : 100px ;
+    width : 100px ;
+}
+.light 
+{
+    position: relative;
+}
+.icon1 img 
+{
+    height : 100px ;
+    width : 100px ;
+    mix-blend-mode: color-burn;
+}
+.icon1 img
+{
+    margin-right : 40px ;
+}
+.icon1 
+{
+    padding-left : 20px ;
+}
+.i2 
+{
+    font-size : 20px ;
+    padding-left : 40px ;
+}
+.i2 a 
+{
+    margin-left: 20px ;
+    margin-right : 10px ;
+}
+.b2 
+{
+    position: relative ;
+    top : -20px ;
+    left : -40px ;
+    width : 200px; 
+    height : 60px ;
+    border-radius : 50px ;
+    font-size : 20px ;
+    color :  var(--primary-color) ;
+    background-color: var(--secondary-color) ;
+}
+.b1:hover 
+{
+    transform: scale(1.2);
+    box-shadow : 2.5px 2.5px 2.5px white ;
+}
+.b2:hover 
+{
+    transform: scale(1.2);
+    box-shadow: 2.5px 2.5px 2.5px white ;
+}
